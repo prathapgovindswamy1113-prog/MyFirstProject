@@ -35,7 +35,8 @@ const Login = RC.FC = () =>{
           <div>Password <span>*</span></div>
           <input type="password" className="password-inpt" onChange={(e)=>setPassword(e.target.value)}/>
 
-          <buton className='login-btn' type='submit'>Login in</buton>
+          <buton className='login-btn' type='submit'>Login in
+          </buton>
         </div>
         </form>
       </div>
